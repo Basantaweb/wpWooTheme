@@ -1,0 +1,93 @@
+/*
+Theme Name: wpWooTheme
+Theme URI: https://example.com/wpWooTheme
+Description: A custom theme for WooCommerce.
+Version: 1.0
+Author: Your Name
+Author URI: https://example.com
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: woocommerce, two-columns, right-sidebar, custom-menu, custom-colors, custom-header, custom-background, threaded-comments, sticky-post, translation-ready
+Text Domain: wpWooTheme
+*/
+
+/* =Reset default styles
+-------------------------------------------------------------- */
+@import url('_reset.css');
+
+/* =Global
+-------------------------------------------------------------- */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* =Header
+-------------------------------------------------------------- */
+.site-header {
+    /* Add your header styles here */
+}
+
+/* =Navigation
+-------------------------------------------------------------- */
+.main-navigation {
+    /* Add your navigation styles here */
+}
+
+/* =Content
+-------------------------------------------------------------- */
+.site-content {
+    /* Add your content styles here */
+}
+
+/* =WooCommerce
+-------------------------------------------------------------- */
+.woocommerce {
+    /* Add your WooCommerce styles here */
+}
+
+/* =Footer
+-------------------------------------------------------------- */
+.site-footer {
+    /* Add your footer styles here */
+}
+
+/* =Media queries
+-------------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+    /* Add your mobile styles here */
+}
+
+/* =Reset default styles
+-------------------------------------------------------------- */
+@import url('_sass/_reset.scss');
+
+/* =Global
+-------------------------------------------------------------- */
+@import url('_sass/_global.scss');
+
+/* =Header
+-------------------------------------------------------------- */
+@import url('_sass/_header.scss');
+
+/* =Navigation
+-------------------------------------------------------------- */
+@import url('_sass/_navigation.scss');
+
+/* =Content
+-------------------------------------------------------------- */
+@import url('_sass/_content.scss');
+
+/* =WooCommerce
+-------------------------------------------------------------- */
+@import url('_sass/_woocommerce.scss');
+
+/* =Footer
+-------------------------------------------------------------- */
+@import url('_sass/_footer.scss');
+
+/* =Media queries
+-------------------------------------------------------------- */
+@import url('_sass/_media-queries.scss');
