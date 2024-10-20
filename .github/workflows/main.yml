@@ -17,4 +17,4 @@ jobs:
         server: digiwebcam.in
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /public_html/wpdesign/wp-content/themes/wpWooTheme
+        server-dir: /public_html/wpdesign/wp-content/themes/wpWooTheme/
